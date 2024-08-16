@@ -13,7 +13,7 @@ function App() {
   const [collapsed, setCollapsed] = useState(false);
   const [hoverEnabled, setHoverEnabled] = useState(true);
   const [switchValue, setSwitchValue] = useState(true);
-  const [page, setPage] = useState("1");
+  const [page, setPage] = useState("2");
   const handleSwitchChange = (value) => {
     setSwitchValue(value);
   };
@@ -69,7 +69,7 @@ function App() {
       <Layout>
         <Header
           className="header"
-          style={{ background: switchValue == false ? "#111d2c" : "" }}
+          style={{ background: switchValue == false ? "#001529" : "" }}
         >
           <Button
             type="text"

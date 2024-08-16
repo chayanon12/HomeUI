@@ -5,7 +5,6 @@ import Loct from "../assets/LOCT.png";
 import Sga from "../assets/SGA.png";
 import Faa from "../assets/FAA.png";
 import React from "react";
-import { FaA } from "react-icons/fa6";
 
 function Banner() {
   const { Meta } = Card;

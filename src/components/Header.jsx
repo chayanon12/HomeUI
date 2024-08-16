@@ -12,7 +12,7 @@ import React, { useState } from "react";
 function Header({onSwitchChange,theme}) {
   const [check, setCheck] = useState(true);
   return (
-    <Flex align="center" justify="space-between" style={{background:theme === true ? '#fff' : '#111d2c'}}>
+    <Flex align="center" justify="space-between" style={{background:theme === true ? '#fff' : '#001529'}}>
       <Typography.Title level={2} type="secondary" style={{color:theme === false ? '#fff' : '#3f4840ea'}}>
         Dashboard
       </Typography.Title>
